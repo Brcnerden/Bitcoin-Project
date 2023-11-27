@@ -3,15 +3,14 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import SvgComponent from "../../Icon/Logo";
 import Buttons from "../Button/Button";
+import Logo from "../../assets/images/Logo.jpg";
 
-function NavScrollExample() {
+function NavScroll() {
   return (
     <Navbar expand="lg">
       <Container>
-        <SvgComponent />
-
+        <img src={Logo} alt="Logo" />
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse className="ms-5" id="navbarScroll">
           <Nav
@@ -22,7 +21,6 @@ function NavScrollExample() {
             <Nav.Link href="#action1">Crytocurrency</Nav.Link>
             <Nav.Link href="#action2"> Exchanges</Nav.Link>
             <Nav.Link href="#action2"> Watchlist</Nav.Link>
-
             <Nav.Link href="#action3"> NFT</Nav.Link>
             <Nav.Link href="#action4"> Portfolio</Nav.Link>
             <NavDropdown title="Product" id="navbarScrollingDropdown">
@@ -44,4 +42,4 @@ function NavScrollExample() {
   );
 }
 
-export default NavScrollExample;
+export default NavScroll;

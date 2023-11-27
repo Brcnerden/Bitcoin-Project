@@ -1,13 +1,12 @@
 import Bitcoin from "../../assets/images/BitcoinImage.jpg";
 import Buttons from "../Button/Button";
 import * as H from "./Headerstyled";
-import DropdownHeaders from "./DropdownHeader";
 
 export const Header = () => {
   return (
     <H.Headers>
       <div className="container ">
-        <div className="row">
+        <div className="row align-items-center">
           <div className="col-6">
             <H.Singdiv>SIGN UP TODAY</H.Singdiv>
             <H.Text className="display-3">
@@ -19,12 +18,21 @@ export const Header = () => {
             </p>
             <div className="d-flex">
               <Buttons text="Get Started" color="color" />
-              <DropdownHeaders />
+              <div className="btn-group">
+                <button
+                  type="button"
+                  className="dropdown-btn btn btn-outline-primary  justify-content-between rounded-pill dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Download App
+                </button>
+              </div>
             </div>
           </div>
 
           <div className="col-6">
-            <img src={Bitcoin} alt="Bitcoin" />
+            <img src={Bitcoin} className="img-fluid" alt="Bitcoin" />
           </div>
         </div>
       </div>

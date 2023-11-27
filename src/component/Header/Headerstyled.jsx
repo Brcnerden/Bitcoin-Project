@@ -5,11 +5,16 @@ const Singdiv = styled.div`
   font-size: 20px;
   line-height: 30px;
   color: #468ef9;
-  margin: 212px 0 18px 0;
+  margin: 0 0 18px 0;
 `;
 
-const Headers = styled.header`
+const Headers = styled.body`
   font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.9),
+    rgba(70, 142, 249, 0.3)
+  );
 `;
 
 const Text = styled.h1`
