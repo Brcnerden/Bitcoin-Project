@@ -1,4 +1,4 @@
-import Bitcoin from "../../assets/images/BitcoinImage.jpg";
+import Bitcoin from "../../assets/images/World.png";
 import Buttons from "../Button/Button";
 import * as H from "./Headerstyled";
 

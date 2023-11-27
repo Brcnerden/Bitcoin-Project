@@ -1,9 +1,22 @@
 import Table from "react-bootstrap/Table";
-import Bitcoin from "../../Icon/Bitcoin";
-import Ethereum from "../../Icon/Ethereum";
-import Rise from "../../assets/images/Rise.jpg";
-import Decreasing from "../../assets/images/Decreasing.jpg";
-function MoneyTable() {
+function MoneyTable({
+  icon,
+  title,
+  price,
+  status,
+  icon1,
+  title1,
+  price1,
+  status1,
+  icon2,
+  title2,
+  price2,
+  status2,
+  icon3,
+  title3,
+  price3,
+  status3,
+}) {
   return (
     <Table striped hover>
       <thead>
@@ -15,37 +28,54 @@ function MoneyTable() {
       </thead>
       <tbody>
         <td>
-          <Bitcoin />
-          <span className="fw-light">Bitcoin</span>
+          {icon}
+          <span className="fw-light">{title}</span>
         </td>
         <td>
-          <span className="text-success fw-bold">+</span>$43,180.13
+          <span className="text-success fw-bold">+</span>
+          {price}
         </td>
         <td>
-          <img src={Rise} alt="Rise" />
-        </td>
-      </tbody>
-      <tbody>
-        <td>
-          <Ethereum />
-          <span className="fw-light">Ethereum</span>
-        </td>
-        <td>
-          <span className="text-danger fw-bold">-</span>$3,480.65
-        </td>
-        <td>
-          <img src={Decreasing} alt="Rise" />
+          <img src={status} alt="Rise" />
         </td>
       </tbody>
       <tbody>
         <td>
-          <span className="fw-light">Bitcoin</span>
+          {icon1}
+          <span className="fw-light">{title1}</span>
         </td>
         <td>
-          <span className="text-success fw-bold">+</span>$43,180.13
+          <span className="text-danger fw-bold">-</span>
+          {price1}
         </td>
         <td>
-          <img src={Rise} alt="Rise" />
+          <img src={status1} alt="Rise" />
+        </td>
+      </tbody>
+      <tbody>
+        <td>
+          {icon2}
+          <span className="fw-light">{title2}</span>
+        </td>
+        <td>
+          <span className="text-success fw-bold">+</span>
+          {price2}
+        </td>
+        <td>
+          <img src={status2} alt="Rise" />
+        </td>
+      </tbody>
+      <tbody>
+        <td>
+          {icon3}
+          <span className="fw-light">{title3}</span>
+        </td>
+        <td>
+          <span className="text-success fw-bold">+</span>
+          {price3}
+        </td>
+        <td>
+          <img src={status3} alt="Rise" />
         </td>
       </tbody>
     </Table>

@@ -1,18 +1,16 @@
 import Chevron from "../../Icon/Chevron";
-import Table from "./Table";
 
-export const Board = () => {
+export const Board = ({ title }) => {
   return (
     <>
       <div className="d-flex flex-column gap-4 w-100">
         <div className="d-flex justify-content-between align-items-center w-100">
-          <span>🔥Trending</span>
+          <span>{title}</span>
           <button className="btn text-primary">
             More
             <Chevron />
           </button>
         </div>
-        <Table />
       </div>
     </>
   );
