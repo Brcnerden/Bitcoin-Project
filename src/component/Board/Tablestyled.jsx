@@ -5,4 +5,9 @@ const Charts = styled.img`
   height: 40px;
 `;
 
-export { Charts };
+const ResultTable = styled.table`
+  margin-left: auto;
+  margin-right: auto;
+`;
+
+export { Charts, ResultTable };

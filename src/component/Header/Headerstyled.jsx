@@ -6,6 +6,9 @@ const Singdiv = styled.div`
   line-height: 30px;
   color: #468ef9;
   margin: 0 0 18px 0;
+  @media only screen and (max-width: 500px) {
+    text-align: center;
+  }
 `;
 
 const Headers = styled.body`
@@ -20,10 +23,57 @@ const Headers = styled.body`
 const Text = styled.h1`
   font-weight: 700;
   margin: 0 53px 30px 0;
+  @media only screen and (max-width: 500px) {
+    text-align: center;
+    margin-right: 27px;
+    margin-left: 27px;
+  }
+`;
+
+const Download = styled.button`
+  height: 52px;
+  margin-top: 5px;
+  @media only screen and (max-width: 500px) {
+    width: 310px;
+    height: 58px;
+    margin-left: 55px;
+    margin-bottom: 70px;
+  }
 `;
 
 const Colors = styled.span`
   color: #3984f4;
 `;
+const Information = styled.p`
+  @media only screen and (max-width: 500px) {
+    display: none;
+  }
+`;
 
-export { Singdiv, Headers, Colors, Text };
+const WorldImage = styled.div`
+  @media only screen and (max-width: 500px) {
+    display: none;
+  }
+`;
+
+const Buttons = styled.div`
+  @media only screen and (max-width: 500px) {
+    display: block;
+    > button {
+      width: 310px;
+      height: 58px;
+      margin-left: 55px;
+    }
+  }
+`;
+
+export {
+  Singdiv,
+  Headers,
+  Colors,
+  Text,
+  Download,
+  WorldImage,
+  Information,
+  Buttons,
+};

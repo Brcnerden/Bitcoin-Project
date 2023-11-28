@@ -18,7 +18,7 @@ function MoneyTable({
   status3,
 }) {
   return (
-    <Table striped hover>
+    <Table className="ml-auto mr-auto" striped hover>
       <thead>
         <tr className="col">
           <th className="fw-normal">Name</th>
