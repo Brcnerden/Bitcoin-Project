@@ -2,7 +2,8 @@ import styled from "@emotion/styled";
 
 const Tablo = styled.section`
   display: flex;
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   height: 330px;
   border-radius: 20px;
   margin-left: auto;
@@ -12,9 +13,12 @@ const Tablo = styled.section`
   margin-top: -40px;
   background-color: white;
   justify-content: center;
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 1024px) {
     display: block;
-    margin-top: 0;
+    box-shadow: none;
+    width: 354px;
+    height: 1034px;
+    border-radius: 40px;
   }
 `;
 

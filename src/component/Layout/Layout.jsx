@@ -5,6 +5,7 @@ import { MoneyBoard } from "../Board/MoneyBoard";
 import { Footer } from "../Footer/Footer";
 import { Shopping } from "../Shopping/Shopping";
 import { Banner } from "../Banner/Banner";
+import { CreditCard } from "../CreditCard/CreditCard";
 
 export const Layout = () => {
   return (
@@ -13,11 +14,11 @@ export const Layout = () => {
         <NavScroll />
         <Header />
       </L.Hearder>
-
       <MoneyBoard />
-
       <Shopping />
       <Banner />
+      <CreditCard />
+
       <Footer />
     </div>
   );

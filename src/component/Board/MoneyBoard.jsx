@@ -15,8 +15,8 @@ import Decreasing from "../../assets/images/Decreasing.jpg";
 
 export const MoneyBoard = () => {
   return (
-    <div className="row ">
-      <T.Tablo className="gap-5 flex ">
+    <div>
+      <T.Tablo className=" flex ">
         <div className="flex-column align-items-center ">
           <Board title="🔥 Trending" />
           <Table

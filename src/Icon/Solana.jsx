@@ -1,5 +1,5 @@
-const Solana = (props) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width={25} height={25} {...props}>
+const Solana = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
     <g fill="none">
       <circle cx={16} cy={16} r={16} fill="#66F9A1" />
       <path

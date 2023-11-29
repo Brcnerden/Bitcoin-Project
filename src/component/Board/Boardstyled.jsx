@@ -5,10 +5,10 @@ const MoreButton = styled.button`
   width: 90px;
 `;
 
-const Trendy = styled.p`
-  display: flex;
-  align-items: center;
-  margin-top: 23px;
+const Trendy = styled.div`
+  @media only screen and (max-width: 500px) {
+    margin-top: 30px;
+  }
 `;
 
 export { MoreButton, Trendy };

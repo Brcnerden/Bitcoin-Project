@@ -8,6 +8,8 @@ const BodyFooter = styled.div`
 `;
 
 const Header = styled.div`
+  flex-wrap: wrap;
+  justify-content: space-between;
   @media only screen and (max-width: 500px) {
     display: block;
   }
@@ -29,7 +31,6 @@ const Texts = styled.div`
   font-size: 14px;
   font-weight: 500;
   line-height: 24px;
-  margin-left: 120px;
 
   > p {
     width: 100px;

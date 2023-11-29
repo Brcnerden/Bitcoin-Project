@@ -1,4 +1,4 @@
-import Logo from "../../assets/images/Logo1.png";
+import Logo from "../../assets/images/FooterLogo.png";
 import * as F from "./FooterStyled";
 import Arrow from "../../Icon/Arrow";
 

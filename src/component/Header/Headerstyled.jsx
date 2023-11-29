@@ -42,7 +42,16 @@ const Download = styled.button`
 `;
 
 const Colors = styled.span`
-  color: #3984f4;
+  background: linear-gradient(
+    169.4deg,
+    #3984f4 -6.01%,
+    #0cd3ff 36.87%,
+    #2f7cf0 78.04%,
+    #0e65e8 103.77%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 `;
 const Information = styled.p`
   @media only screen and (max-width: 500px) {
@@ -57,6 +66,9 @@ const WorldImage = styled.div`
 `;
 
 const Buttons = styled.div`
+  @media only screen and (max-width: 1400px) {
+    margin-bottom: 40px;
+  }
   @media only screen and (max-width: 500px) {
     display: block;
     > button {

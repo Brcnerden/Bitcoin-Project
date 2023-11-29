@@ -6,7 +6,7 @@ import Bitcoin from "../../Icon/Bitcoin";
 
 export const Shopping = () => {
   return (
-    <div className="container d-md-flex">
+    <div className="container d-md-flex mt-5">
       <div className="col-md-6 col-12">
         <S.Title>Buy & trade on the original crypto exchange.</S.Title>
         <S.Text>

@@ -28,61 +28,62 @@ function MoneyTable({
         <tr className="col">
           <th className="fw-normal">Name</th>
           <th className="fw-normal">Price</th>
-          <th className="fw-normal">Chart</th>
+
+          <T.Chart className="fw-normal">Chart</T.Chart>
         </tr>
       </thead>
-      <tbody>
-        <td>
+      <T.Text>
+        <T.Icon>
           {icon}
           <span className="fw-light">{title}</span>
-        </td>
+        </T.Icon>
         <td>
           <span className="text-success fw-bold">{sign}</span>
           {price}
         </td>
-        <td>
+        <T.PictureRow>
           <T.Picture src={status} alt="Rise" />
-        </td>
-      </tbody>
-      <tbody>
-        <td>
+        </T.PictureRow>
+      </T.Text>
+      <T.Text>
+        <T.Icon>
           {icon1}
           <span className="fw-light">{title1}</span>
-        </td>
+        </T.Icon>
         <td>
           <span className="text-danger fw-bold">{sign1}</span>
           {price1}
         </td>
-        <td>
+        <T.PictureRow>
           <T.Picture src={status1} alt="Rise" />
-        </td>
-      </tbody>
-      <tbody>
-        <td>
+        </T.PictureRow>
+      </T.Text>
+      <T.Text>
+        <T.Icon>
           {icon2}
           <span className="fw-light">{title2}</span>
-        </td>
+        </T.Icon>
         <td>
           <span className="text-success fw-bold">{sign2}</span>
           {price2}
         </td>
-        <td>
+        <T.PictureRow>
           <T.Picture src={status2} alt="Rise" />
-        </td>
-      </tbody>
-      <tbody>
-        <td>
+        </T.PictureRow>
+      </T.Text>
+      <T.Text>
+        <T.Icon>
           {icon3}
           <span className="fw-light">{title3}</span>
-        </td>
+        </T.Icon>
         <td>
           <span className="text-success fw-bold">{sign3}</span>
           {price3}
         </td>
-        <td>
+        <T.PictureRow>
           <T.Picture src={status3} alt="Rise" />
-        </td>
-      </tbody>
+        </T.PictureRow>
+      </T.Text>
     </Table>
   );
 }

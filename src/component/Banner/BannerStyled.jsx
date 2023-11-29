@@ -7,17 +7,17 @@ const Banner = styled.div`
     rgba(255, 255, 255, 0.6) -9.25%,
     rgba(244, 249, 255, 0.7) 108.74%
   );
-  width: 1350px;
+  width: 1200px;
   height: 289px;
   border-radius: 40px;
   border: 1px solid gray;
   text-align: center;
   padding-top: 50px;
   margin-top: 221px;
-  margin-left: 47px;
   @media only screen and (max-width: 500px) {
     max-width: 378px;
     height: 532px;
+    margin-left: 18px;
   }
 `;
 

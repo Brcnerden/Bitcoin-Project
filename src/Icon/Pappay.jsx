@@ -1,5 +1,5 @@
-const Pappay = (props) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width={25} height={25} {...props}>
+const Pappay = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
     <g fill="none">
       <circle cx={16} cy={16} r={16} fill="#630" />
       <g fill="#FFF">
