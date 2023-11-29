@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Buttons from "../Button/Button";
-import Logo from "../../assets/images/Logo.jpg";
+import Logo from "../../assets/images/Logo1.png";
 
 function NavScroll() {
   return (

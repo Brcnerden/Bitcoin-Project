@@ -9,5 +9,9 @@ const ResultTable = styled.table`
   margin-left: auto;
   margin-right: auto;
 `;
+const Picture = styled.img`
+  width: 115px;
+  height: 40px;
+`;
 
-export { Charts, ResultTable };
+export { Charts, ResultTable, Picture };

@@ -1,7 +1,10 @@
 import NavScroll from "../Navbar/Navbar";
 import { Header } from "../Header/Header";
-import * as L from "./LayoutSteyled";
+import * as L from "./LayoutStyled";
 import { MoneyBoard } from "../Board/MoneyBoard";
+import { Footer } from "../Footer/Footer";
+import { Shopping } from "../Shopping/Shopping";
+import { Banner } from "../Banner/Banner";
 
 export const Layout = () => {
   return (
@@ -12,6 +15,10 @@ export const Layout = () => {
       </L.Hearder>
 
       <MoneyBoard />
+
+      <Shopping />
+      <Banner />
+      <Footer />
     </div>
   );
 };
