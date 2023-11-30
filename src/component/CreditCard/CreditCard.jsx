@@ -5,7 +5,7 @@ import Icon from "../../Icon/Icon";
 export const CreditCard = () => {
   return (
     <C.Card className="container row">
-      <div className="col-6">
+      <div className=" col-12 col-md-6">
         <C.CardPicture className="img-fluid" src={Card} alt="CreditCard" />
       </div>
       <C.Text className="col-6">
@@ -19,19 +19,19 @@ export const CreditCard = () => {
         </p>
         <div className="mb-2">
           <div className="mb-2">
-            <span>
+            <span className="me-2">
               <Icon />
             </span>
             Up to 3% back on purchases
           </div>
           <div className="mb-2">
-            <span>
+            <span className="me-2">
               <Icon />
             </span>
             Earn rewards in bitcoin or any crypto on NEFA
           </div>
           <div className="mb-2">
-            <span>
+            <span className="me-2">
               <Icon />
             </span>
             No annual fee

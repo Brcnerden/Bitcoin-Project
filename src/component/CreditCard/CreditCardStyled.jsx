@@ -36,6 +36,9 @@ const Title = styled.h3`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  @media only screen and (max-width: 500px) {
+    text-align: center;
+  }
 `;
 
 const Button = styled.button`

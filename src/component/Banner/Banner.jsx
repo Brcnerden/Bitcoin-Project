@@ -6,7 +6,7 @@ import Gambio from "../../assets/images/Gambio.png";
 
 export const Banner = () => {
   return (
-    <div className="container">
+    <div>
       <B.Banner>
         <div>
           <B.Title>Trusted Partners Worldwide</B.Title>

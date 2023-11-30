@@ -6,6 +6,7 @@ import { Footer } from "../Footer/Footer";
 import { Shopping } from "../Shopping/Shopping";
 import { Banner } from "../Banner/Banner";
 import { CreditCard } from "../CreditCard/CreditCard";
+import { GetStart } from "../GetStart/GetStart";
 
 export const Layout = () => {
   return (
@@ -18,7 +19,7 @@ export const Layout = () => {
       <Shopping />
       <Banner />
       <CreditCard />
-
+      <GetStart />
       <Footer />
     </div>
   );
