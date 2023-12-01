@@ -1,6 +1,10 @@
 import styled from "@emotion/styled";
 const Card = styled.div`
   margin-top: 175px;
+  margin-left: 50px;
+  @media only screen and (max-width: 500px) {
+    margin-left: 0;
+  }
 `;
 
 const Text = styled.div`
@@ -10,6 +14,11 @@ const Text = styled.div`
     font-size: 15px;
     line-height: 22.5px;
     color: #666666;
+    @media only screen and (max-width: 500px) {
+      font-size: 12px;
+      line-height: 20px;
+      margin-bottom: 20px;
+    }
   }
 `;
 
@@ -37,7 +46,11 @@ const Title = styled.h3`
     -webkit-text-fill-color: transparent;
   }
   @media only screen and (max-width: 500px) {
-    text-align: center;
+    max-width: 263px;
+    width: 100%;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 33px;
   }
 `;
 
@@ -50,6 +63,9 @@ const Button = styled.button`
   background-color: #ffffff;
   border-radius: 40px;
   margin-top: 30px;
+  @media only screen and (max-width: 500px) {
+    margin-left: 70px;
+  }
 `;
 
 export { Title, Text, Button, CardPicture, Card };

@@ -11,7 +11,7 @@ export const GetStart = () => {
       <G.Title>
         <div>Get started in just a few minutes</div>
       </G.Title>
-      <G.Text className="d-flex">
+      <G.Text className="d-md-flex">
         <div>
           <img src={SingUp} alt="SingUp" />
           <div>Sign Up</div>

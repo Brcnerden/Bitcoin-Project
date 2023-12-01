@@ -13,12 +13,20 @@ const Banner = styled.div`
   border: 1px solid gray;
   text-align: center;
   padding-top: 50px;
-  margin-top: 221px;
-  margin-left: 100px;
-  @media only screen and (max-width: 500px) {
-    max-width: 378px;
+  position: relative;
+  margin: auto;
+
+  @media only screen and (max-width: 1200px) {
+    max-width: 578px;
     height: 532px;
     margin-left: 50px;
+    position: relative;
+    margin: auto;
+  }
+
+  @media only screen and (max-width: 500px) {
+    max-width: 378px;
+    width: 100%;
   }
 `;
 
@@ -43,6 +51,15 @@ const Text = styled.p`
 `;
 
 const Brand = styled.div`
+  @media only screen and (max-width: 1200px) {
+    > img {
+      display: block;
+      width: 203px;
+      height: 85px;
+      position: relative;
+      margin: auto;
+    }
+  }
   @media only screen and (max-width: 500px) {
     > img {
       display: block;

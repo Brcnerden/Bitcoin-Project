@@ -8,7 +8,7 @@ export const CreditCard = () => {
       <div className=" col-12 col-md-6">
         <C.CardPicture className="img-fluid" src={Card} alt="CreditCard" />
       </div>
-      <C.Text className="col-6">
+      <C.Text className="col-12 col-md-6">
         <C.Title>
           Introducing the <span>NEFA </span>
           <p> Credit Card</p>

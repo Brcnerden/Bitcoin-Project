@@ -1,5 +1,9 @@
 import styled from "@emotion/styled";
 
+const Card = styled.div`
+  margin-bottom: 210px;
+`;
+
 const Title = styled.h3`
   font-family: "Poppins", sans-serif;
   font-size: 45px;
@@ -69,4 +73,4 @@ const BuyingButton = styled.button`
   border: none;
 `;
 
-export { Title, Text, PriceButton, Line, Price, Rate, BuyingButton };
+export { Title, Text, PriceButton, Line, Price, Rate, BuyingButton, Card };

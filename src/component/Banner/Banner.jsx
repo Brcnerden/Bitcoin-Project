@@ -14,7 +14,7 @@ export const Banner = () => {
             We are partners with countless major organisations around the globe
           </B.Text>
         </div>
-        <B.Brand className="sm-row">
+        <B.Brand className="sm-row md-row">
           <img src={Clever} alt="Clever" />
           <img src={Diamond} alt="Diamond" />
           <img src={Swiss} alt="Swiss" />
