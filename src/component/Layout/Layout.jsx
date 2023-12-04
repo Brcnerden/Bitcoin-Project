@@ -4,7 +4,6 @@ import * as L from "./LayoutStyled";
 import { Footer } from "../Footer/Footer";
 
 export const Layout = ({ children }) => {
-  console.log("merhaba");
   return (
     <div>
       <L.Hearder>
