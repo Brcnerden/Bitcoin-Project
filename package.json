@@ -2,7 +2,7 @@
   "name": "bitcoin-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://{Brcnerden}.github.io/{Bitcoin-Project}/",
+  "homepage": "https://Brcnerden.github.io/Bitcoin-Project/",
   "type": "module",
   "scripts": {
     "dev": "vite",
