@@ -2,6 +2,10 @@ import styled from "@emotion/styled";
 
 const Card = styled.div`
   margin-bottom: 210px;
+  @media only screen and (max-width: 500px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 `;
 
 const Title = styled.h3`
